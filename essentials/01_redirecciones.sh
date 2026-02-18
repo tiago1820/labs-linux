@@ -1,18 +1,44 @@
-
-Para crear una carpeta llamada lab_redirecciones
+# PREPARACIÓN
+- Para crear una carpeta llamada lab_redirecciones
 ```
 mkdir lab_redirecciones
 ```
 
-Para entrar en la carpeta recién creada:
+- Para entrar en la carpeta recién creada:
 ```
 cd lab_redirecciones
 ```
 
-Para ver la ruta completa del directorio actual:
+- Para ver la ruta completa del directorio actual:
 ```
 pwd
 ```
+
+# ARCHIVOS DE TRABAJO
+- Para crear el archivo datos.txt y permitir escribir contenido hasta encontrar EOF.
+```
+ cat > datos.txt <<EOF
+```
+- Contenido del archivo:
+```
+ ana:ventas:100
+ juan:it:200
+ maria:ventas:150
+ luis:it:300
+ sofia:rrhh:120
+```
+- Para indicar el final del contenido que se escribirá en el archivo:
+```
+  EOF
+```
+
+- Para mostrar en pantalla el contenido del archivo datos.txt:
+```
+ cat datos.txt
+```
+
+
+
 
 
 
