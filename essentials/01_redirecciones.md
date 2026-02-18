@@ -37,8 +37,25 @@ pwd
  cat datos.txt
 ```
 
+# REDIRECCIÓN DE SALIDA
+- Para guardar la lista de archivos de directorio actual en listado.txt, sobrescribiendo
+el contenido si ya existe.
+```
+ ls > listado.txt
+```
 
+- Para mostrar en pantalla el contenido del archivo listado.txt.
+```
+ cat listado.txt
+```
 
+# REDIRECCIÓN DE ENTRADA (<)
+
+Para contar líneas, palabras y caracteres del archivo datos.txt usando el archivo como
+entrada estándar.
+```
+ wc < datos.txt
+```
 
 
 
